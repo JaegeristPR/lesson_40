@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: url(https://wallpaperaccess.com/full/104679.jpg) center center no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    margin: 20px 0px;
+}
+
+
+
+.header-input {
+    height: 70px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input {
+    height: 40px;
+    width: 250px;
+}
+
+.enter {
+    height: 45px;
+    width: 100px;
+}
+
+main {
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+}
+
+.main-created {
+    min-height: 300px;
+    width: 600px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(1000px);
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-deleted {
+    min-height: 150px;
+    width: 600px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(1000px);
+}
+
+footer h1 {
+    margin-bottom: 30px;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+}
+
+.delete {
+    padding: 5px 5px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+
+.repair {
+    padding: 5px 5px;
+    background-color: rgb(0, 255, 21);
+    color: white;
+    border-radius: 10px;
+}
+
+span {
+    cursor: pointer;
+}
+
+.receptacle {
+    width: 640px;
+    min-height: 740px;
+    background-color: rgba(240, 248, 255, 0);
+    backdrop-filter: blur(95px);
+    border-radius: 40px;
+}
+
+@media screen and (max-width : 701px) {
+    .receptacle {
+        width: 350px;
+    }
+
+    .input {
+        width: 150px;
+    }
+
+    .main-created {
+        width: 300px;
+    }
+
+    .footer-deleted {
+        width: 300px;
+    }
+}

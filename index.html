@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Lesson 40</title>
+</head>
+<body>
+    <div class="receptacle">
+        <header>
+            <h1>Введите задачу!</h1>
+            <div class="header-input">
+                <form>
+                    <input class="input" type="text">
+                    <button type="reset" class="enter" onclick="enter()">Задать</button>
+                </form>
+            </div>
+        </header>
+        <main>
+            <div class="main-created">
+                <ol id="create"></ol>
+            </div>
+        </main>
+        <footer>
+            <h1>Удалённые задачи</h1>
+            <div class="footer-deleted">
+                <ol></ol>
+            </div>
+        </footer>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
